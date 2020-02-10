@@ -1,2 +1,2 @@
 # Benchmarks
-Comparative performance benchmarks.
+Comparative performance benchmarks for testing.
