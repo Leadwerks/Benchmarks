@@ -1,0 +1,1 @@
+# Skinned Animation Test
