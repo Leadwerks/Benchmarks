@@ -1,6 +1,6 @@
 # Benchmarks #
 
-Comparative performance benchmarks for testing.
+Comparative performance benchmarks for testing Ultra Engine against Unity3D.
 
 ## Shadows ##
 
