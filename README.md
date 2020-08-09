@@ -9,7 +9,9 @@ The following metrics are measured:
 - GPU utilization (%). Higher is better.
 - CPU utilization (%). Lower is better, as long as the GPU utilization is high.
 
-All tests are performed with an Nvidia GEForce 2060 GPU. High framerate, high GPU utilization, and low CPU utilization is considered desirable. This ensure the graphics card is not sitting idly and leaves computional power left over for gameplay to be processed on the CPU.
+High framerate, high GPU utilization, and low CPU utilization is considered desirable. This ensure the graphics card is not sitting idly and leaves computional power left over for gameplay to be processed on the CPU.
+
+All tests are performed with an Nvidia GEForce 2060 GPU. 
 
 ## System Requiresments ##
 - Vulkan 1.1
