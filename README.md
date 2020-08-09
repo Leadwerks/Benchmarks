@@ -35,6 +35,8 @@ Culling in this test is very minimal, since there are only three renderable obje
 
 This test evaluates each engine's efficiency when performing skinned animation. Each model has a unique skeleton that animates independently.
 
+In Unity, GPU skinning is enabled with the maximum bones set to four. In Utra Engine GPU skinning is always enabled.
+
 ### Draw Calls ###
 
 This test evaluates efficiency when drawing a large number of unique models, as we would see in a game. Each box is unique and not instanced, with frustum culling performed on the CPU on all objects. "Static batching" in Unity is disabled, because that would disable the functionality we are trying to test.
