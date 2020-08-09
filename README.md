@@ -29,7 +29,7 @@ This test evaluates the update and render speed of point lights. The moving obje
 
 The shadow map size in Ultra Engine is set to 128 to prevent the GPU from running out of video memory. I do not know what exact resolutions correspond to the Unity shadow map settings.
 
-Culling in this test is very minimal, since there are only three renderable objects, so it's purely just a test of updating draw speed. In a more complex scene I would expect to see a larger discrepency between the two renderers, as we see in the culling test.
+Culling in this test is very minimal, since there are only three renderable objects, so it's purely just a test of updating draw speed. In a more complex scene I would expect to see a larger discrepency between the two renderers. This test has a lot of lights but the cost of calculating a visibility set for each shadow map render should be very low.
 
 ### Animation ###
 
