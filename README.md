@@ -12,7 +12,7 @@ Culling in this test is very minimal, since there are only three renderable obje
 
 ## Draw Calls ##
 
-This test evaluates efficiency when drawing a large number of unique models, as we would see in a game. Each box is unique and not instanced, with frustum culling performed on the CPU on all objects. "Static batching" in Unity is disabled, because that would disable the functionality we are trying to test. In either engine, a collapsed million-polygon mesh would probably render at about the same speed.
+This test evaluates efficiency when drawing a large number of unique models, as we would see in a game. Each box is unique and not instanced, with frustum culling performed on the CPU on all objects. "Static batching" in Unity is disabled, because that would disable the functionality we are trying to test.
 
 ## Animation ##
 
