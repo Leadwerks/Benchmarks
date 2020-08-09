@@ -1,6 +1,6 @@
 # Benchmarks #
 
-Comparative performance benchmarks for testing Ultra Engine against Unity3D.
+Comparative performance benchmarks for testing Ultra Engine against Unity3D. Framerate and GPU utilization are measured. All tests are performed with an Nvidia GEForce 2060.
 
 ## Shadows ##
 
