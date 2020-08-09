@@ -3,7 +3,7 @@
 Comparative performance benchmarks for testing Ultra Engine (1.0) against Unity3D (2019).
 
 ## Metrics ##
-Framerate, GPU utilization, and CPU utilization are all measured. All tests are performed with an Nvidia GEForce 2060 GPU. High GPU utilization with low CPU utilization is considered desirable. This ensure the graphics hardware is not sitting idly and leaves computional power left over for gameplay on the CPU.
+Framerate, GPU utilization, and CPU utilization are all measured. All tests are performed with an Nvidia GEForce 2060 GPU. High framerate, high GPU utilization, and low CPU utilization is considered desirable. This ensure the graphics hardware is not sitting idly and leaves computional power left over for gameplay on the CPU.
 
 ## System Requiresments ##
 - Vulkan 1.1
