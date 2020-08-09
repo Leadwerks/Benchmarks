@@ -35,7 +35,7 @@ Culling in this test is very minimal, since there are only three renderable obje
 
 This test evaluates each engine's efficiency when performing skinned animation. Each model has a unique skeleton that animates independently.
 
-In Unity, GPU skinning is enabled with the maximum bones set to four. In Utra Engine GPU skinning is always enabled. I did not know how to start the animation at a random frame, otherwise I would have to show that each skeleton is unique.
+In Unity, GPU skinning is enabled with the maximum bones set to four. In Utra Engine GPU skinning is always enabled. I did not know how to start the animation at a random frame in Unity, otherwise I would have to show that each skeleton is unique.
 
 ### Draw Calls ###
 
