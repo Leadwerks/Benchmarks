@@ -11,7 +11,7 @@ The following metrics are measured:
 - GPU utilization (%). Higher is better.
 - CPU utilization (%). Lower is better, as long as the GPU utilization is high.
 
-High framerate, high GPU utilization, and low CPU utilization is considered desirable. This ensure the graphics card is not sitting idly and leaves computional power left over for gameplay to be processed on the CPU.
+High framerate, high GPU utilization, and low CPU utilization is considered desirable. This ensures the graphics card is not sitting idle and leaves computional power left over for gameplay to be processed on the CPU. If we encounter a situation where the CPU utilization is high but the GPU utilization is low, this is known as "GPU starvation" and is to be avoided.
 
 All tests are performed with an Nvidia GEForce 2060 GPU. 
 
