@@ -13,8 +13,6 @@ The following metrics are measured:
 
 High framerate, high GPU utilization, and low CPU utilization is considered desirable. This ensures the graphics card is not sitting idle and leaves computional power left over for gameplay to be processed on the CPU. If we encounter a situation where the CPU utilization is high but the GPU utilization is low, this is known as "GPU starvation" and is to be avoided.
 
-All tests are performed with an Nvidia GEForce 2060 GPU. 
-
 ## System Requiresments ##
 - Vulkan 1.1
 - 260 cube shadow shader texture units supported.
@@ -46,5 +44,8 @@ This test evaluates efficiency when drawing a large number of unique models, as 
 This test evaluates the engine's efficiency when managing and culling large numbers of instanced objects. A single box is instanced to form a 48x48x48 grid of 110,592 objects). It is possible to perform occlusion culling on the GPU (see chapter four in *Game Engine Gems 3*) but we specifically want to test the speed of the frustum culling performed on the CPU. To verify that culling is being performed, both engines have a free-look camera implemented.
 
 ## Results ##
+
+All tests are performed with an Nvidia GEForce 2060 GPU. 
+
 
 ## Conclusion ##
