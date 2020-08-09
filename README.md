@@ -11,7 +11,7 @@ Framerate, GPU utilization, and CPU utilization are all measured. All tests are 
 
 ## Benchmarking Tests ##
 
-The following programs are used to test both engines under a variety of conditions. Tests are made simple to ensure both engines are performing the same workload.
+The following programs are used to test both engines under a variety of conditions. Tests are made as simple as possible to ensure both engines are performing the same workload.
 
 ### Shadows ###
 
