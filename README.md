@@ -2,7 +2,7 @@
 
 Comparative performance benchmarks for testing **Ultra Engine 1.0** against **Unity 2019**.
 
-When we create benchmarks, we attempt to isolate one system at a time and create a stress test that identifies potential bottlenecks. This is not because we plan to create a game with 1000 characters or 100,000 boxes onscreen (although you could), but because we understand that all of these rates will contribute to our game's final performance. It would be confusing and complicated to try to test all of these features in one combined scene, so we separate out the functionality into several tests, with the goal of making each as fast as possible.
+When we create benchmarks, we attempt to isolate one system at a time and create a stress test that identifies potential bottlenecks. This is not because we plan to create a game with 1000 characters or 100,000 boxes onscreen (although you could), but because we understand that all of these rates will contribute to our game's final performance. It would be confusing and complicated to try to test all of these features at once, so we separate out the functionality into several tests, with the goal of making each as fast as possible.
 
 ## Metrics ##
 
