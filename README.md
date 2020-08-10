@@ -33,6 +33,8 @@ The shadow map size in Ultra Engine is set to 128 to prevent the GPU from runnin
 
 Culling in this test is very minimal, since there are only three renderable objects, so it's purely just a test of updating draw speed. In a more complex scene I would expect to see a larger discrepency between the two renderers. This test has a lot of lights but the cost of calculating a visibility set for each shadow map render should be very low.
 
+I found the performance with lighting in Unity to be a bit unpredictable. Moving lights seem to have very little cost, which likely indicates shadowmap updates are staggered. Although this can cause jittery shadows, it is a valid technique to use. The problem is that it makes measuring speed difficult. There seems to be a very significant cost of shadows, even when nothing in the scene is moving. It's almost as if the shadows are always being constantly updated, with a defined limit on the max number of shadow refreshes each frame.
+
 ### Animation ###
 
 This test evaluates each engine's efficiency when performing skinned animation. Each model has a unique skeleton that animates independently.
