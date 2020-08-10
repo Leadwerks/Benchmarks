@@ -15,7 +15,7 @@ High framerate, high GPU utilization, and low CPU utilization is considered desi
 
 ## System Requiresments ##
 - Vulkan 1.1
-- 260 cube shadow shader texture units supported.
+- 260 cube shadow shader texture units supported. (Some integrated graphics chips do not support this.)
 
 ## Benchmarking Tests ##
 
