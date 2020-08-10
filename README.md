@@ -29,6 +29,8 @@ The shadow map size in Ultra Engine is set to 128 to prevent the GPU from runnin
 
 Culling in this test is very minimal, since there are only three renderable objects, so it's purely just a test of updating draw speed. In a more complex scene I would expect to see a larger discrepency between the two renderers. This test has a lot of lights but the cost of calculating a visibility set for each shadow map render should be very low.
 
+Ultra Engine is rendering all shadow maps each frame. I am assuming Unity does the same.
+
 ### Animation ###
 
 This test evaluates each engine's efficiency when performing skinned animation. Each model has a unique skeleton that animates independently.
