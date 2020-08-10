@@ -9,7 +9,7 @@ When we create benchmarks, we attempt to isolate one system at a time and create
 The following metrics are measured:
 - Framerate (FPS). Higher is better.
 - GPU utilization (%). Higher is better.
-- CPU utilization (%). Lower is better, as long as the GPU utilization is high.
+- CPU utilization (%). This isn't critical in our evaluation, but can be an indicator.
 
 High framerate, high GPU utilization, and low CPU utilization is considered desirable. This ensures the graphics card is not sitting idle and leaves computional power left over for gameplay to be processed on the CPU. If we encounter a situation where the CPU utilization is high but the GPU utilization is low, this is known as "GPU starvation" and is to be prevented.
 
