@@ -25,12 +25,6 @@ Basically, this is the situation we want to avoid:
 
 The following programs are used to test both engines under a variety of conditions. Tests are made as simple as possible to ensure both engines are performing the same workload.
 
-### Shadows ###
-
-This test evaluates the general speed of dynamic point light rendering in each engine.
-
-I found the performance with lighting in Unity to be a bit unpredictable. Moving lights seem to have very little cost, which likely indicates shadowmap updates are staggered. Although this can cause jittery shadows, it is a valid technique to use. The problem is that it makes measuring speed difficult. There seems to be a very significant cost of shadows, even when nothing in the scene is moving. It's almost as if the shadows are always being constantly updated, with a defined limit on the max number of shadow refreshes each frame.
-
 ### Animation ###
 
 This test evaluates each engine's efficiency when performing skinned animation. Each model has a unique skeleton that animates independently.
@@ -38,6 +32,12 @@ This test evaluates each engine's efficiency when performing skinned animation. 
 In Ultra Engine GPU skinning is always enabled. In Unity, GPU skinning is enabled with the maximum bones set to four. I did not know how to start the animation at a random frame in Unity, otherwise I would have to show that each skeleton is unique.
 
 The model used is low-polygon (around 1200 triangles) because we are trying to test the animation system, not the GPU vertex pipeline speed.
+
+### Shadows ###
+
+This test evaluates the general speed of dynamic point light rendering in each engine.
+
+I found the performance with lighting in Unity to be a bit unpredictable. Moving lights seem to have very little cost, which likely indicates shadowmap updates are staggered. Although this can cause jittery shadows, it is a valid technique to use. The problem is that it makes measuring speed difficult. There seems to be a very significant cost of shadows, even when nothing in the scene is moving. It's almost as if the shadows are always being constantly updated, with a defined limit on the max number of shadow refreshes each frame.
 
 ### Draw Calls ###
 
