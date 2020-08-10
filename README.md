@@ -27,11 +27,7 @@ The following programs are used to test both engines under a variety of conditio
 
 ### Shadows ###
 
-This test evaluates the update and render speed of point lights. The moving objects in the scene are designed to trigger a redraw on every point light, and to demonstrate that shadows are working.
-
-The shadow map size in Ultra Engine is set to 128 to prevent the GPU from running out of video memory. I do not know what exact resolutions correspond to the Unity shadow map settings.
-
-Culling in this test is very minimal, since there are only three renderable objects, so it's purely just a test of updating draw speed. In a more complex scene I would expect to see a larger discrepency between the two renderers. This test has a lot of lights but the cost of calculating a visibility set for each shadow map render should be very low.
+This test evaluates the general speed of dynamic point light rendering in each engine.
 
 I found the performance with lighting in Unity to be a bit unpredictable. Moving lights seem to have very little cost, which likely indicates shadowmap updates are staggered. Although this can cause jittery shadows, it is a valid technique to use. The problem is that it makes measuring speed difficult. There seems to be a very significant cost of shadows, even when nothing in the scene is moving. It's almost as if the shadows are always being constantly updated, with a defined limit on the max number of shadow refreshes each frame.
 
