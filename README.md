@@ -19,7 +19,6 @@ Basically, this is the situation we want to avoid:
 
 ## System Requiresments ##
 - Vulkan 1.1
-- 260 cube shadow shader texture units supported. (Some integrated graphics chips do not support this.)
 
 ## Benchmarking Tests ##
 
