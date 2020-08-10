@@ -19,6 +19,7 @@ Basically, this is the situation we want to avoid:
 
 ## System Requiresments ##
 - Vulkan 1.1
+- Windows
 
 ## Benchmarking Tests ##
 
