@@ -13,6 +13,10 @@ The following metrics are measured:
 
 High framerate, high GPU utilization, and low CPU utilization is considered desirable. This ensures the graphics card is not sitting idle and leaves computional power left over for gameplay to be processed on the CPU. If we encounter a situation where the CPU utilization is high but the GPU utilization is low, this is known as "GPU starvation" and is to be avoided.
 
+Basically, this is the situation we want to avoid:
+
+![](EWcn5seXkAEiUnX.jpg)
+
 ## System Requiresments ##
 - Vulkan 1.1
 - 260 cube shadow shader texture units supported. (Some integrated graphics chips do not support this.)
