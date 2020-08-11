@@ -11,7 +11,7 @@ The following metrics are measured:
 - GPU utilization (%). Higher is better.
 - CPU utilization (%). This isn't critical in our evaluation, but can be an indicator of what is going on.
 
-High framerate and high GPU utilization is considered desirable. This ensures the graphics card is not sitting idle and leaves computional power left over for gameplay to be processed on the CPU. CPU usage is neutral for the purposes of these tests, but if we encounter a situation where the CPU usage is high but the GPU utilization is low, this is known as "GPU starvation" and is to be prevented.
+High GPU utilization is considered desirable. This ensures the graphics card is not sitting idle. CPU usage is neutral for the purposes of these tests, but if we encounter a situation where the CPU usage is high but the GPU utilization is low, this is known as "GPU starvation" and is to be prevented.
 
 In visual terms, this is the situation we want to avoid:
 
