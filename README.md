@@ -41,11 +41,11 @@ This test evaluates the general speed of dynamic point light rendering in each e
 
 Originally I wanted to create a test of shadow map update speed, but it seems that Unity staggers the shadow map updates so only a limited number (probably one) get updated each frame. This can cause a jittery appearance in shadows, but it's not a bad approach if your application is constrained by the shadow map rendering speed. Unfortunately I could not find a way to disable this, so I could not do a direct comparison between the two engines.
 
-### Draw Calls ###
+### Unique Geometry ###
 
 This test evaluates efficiency when drawing a large number of unique models, as we would see in a game. Each box is unique and not instanced, with frustum culling performed on the CPU on all objects. "Static batching" in Unity is disabled, because that would disable the functionality we are trying to test.
 
-### Frustum Culling ###
+### Instanced Geometry ###
 
 This test evaluates the engine's efficiency when managing and culling large numbers of instanced objects. A single box is instanced to form a 48x48x48 grid of 110,592 objects). It is possible to perform occlusion culling on the GPU (see chapter four in *Game Engine Gems 3*) but we specifically want to test the speed of the frustum culling performed on the CPU. To verify that culling is being performed, both engines have a free-look camera implemented.
 
