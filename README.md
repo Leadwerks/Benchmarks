@@ -39,7 +39,7 @@ The model used is low-polygon (around 1200 triangles) because we are trying to t
 
 This test evaluates the general speed of dynamic point light rendering in each engine.
 
-I found the performance with lighting in Unity to be a bit unpredictable. Moving lights seem to have very little cost, which likely indicates shadowmap updates are staggered. Although this can cause jittery shadows, it is a valid technique to use. The problem is that it makes measuring speed difficult. There seems to be a very significant cost of shadows, even when nothing in the scene is moving. It's almost as if the shadows are always being constantly updated, with a defined limit on the max number of shadow refreshes each frame.
+Originally I wanted to create a test of shadow map update speed, but it seems that Unity staggers the shadow map updates so only a limited number (probably one) get updated each frame. This can cause a jittery appearance in shadows, but it's not a bad approach if your application is constrained by the shadow map rendering speed. Unfortunately I could not find a way to disable this, so I could not do a direct comparison between the two engines.
 
 ### Draw Calls ###
 
