@@ -35,7 +35,7 @@ In Ultra Engine GPU skinning is always enabled. In Unity, GPU skinning is enable
 
 The model used is low-polygon (around 1200 triangles) because we are trying to test the animation system, not the GPU vertex pipeline speed.
 
-### Shadows ###
+### Lighting ###
 
 This test evaluates the general speed of dynamic point light rendering in each engine.
 
