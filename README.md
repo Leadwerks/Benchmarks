@@ -39,7 +39,7 @@ The model used is low-polygon (around 1200 triangles) because we are trying to t
 
 This test evaluates the general speed of dynamic point light rendering in each engine. Ultra Engine is using a forward renderer, but this is not a pure forward vs. deferred test. GPU utilization and framerate are higher in Ultra Engine, so I attribute this to our rendering code.
 
-Originally I wanted to create a test of shadow map update speed, but it seems that Unity staggers the shadow map updates so only a limited number (probably one) get updated each frame. This can cause a jittery appearance in shadows, but it's a viable solution if your application is constrained by the shadow map rendering speed. Unfortunately I could not find a way to disable this, so I could not do a direct comparison between the two engines.
+
 
 ### Unique Geometry ###
 
