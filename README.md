@@ -1,6 +1,6 @@
-# Ultra Engine Benchmarks
+# Leadwerks Benchmarks
 
-Rendering performance benchmarks comparing Ultra Engine, Leadwerks, and Unity.
+Rendering performance benchmarks comparing Leadwerks 5 Beta, Leadwerks, and Unity.
 
 Four tests were created to isolate and measure different aspects of the graphics pipeline in each engine.
 
@@ -53,34 +53,34 @@ In each test, Ultra Engine outperforms Leadwerks, Unity, or both by a factor gre
 
 | Engine | API | GPU Utilization | Framerate |
 |--|--|--|--|
-| Leadwerks | OpenGL | 8% | 52 |
+| Leadwerks 4 | OpenGL | 8% | 52 |
 | Unity | DX11 | 4% | 40 |
 | Unity | Vulkan | 4% | 40 |
-| Ultra Engine | Vulkan | 95% | 1206 |
+| Leadwerks 5 Beta | Vulkan | 95% | 1206 |
 
 ### Animation
 
 | Engine | API | GPU Utilization | Framerate |
 |--|--|--|--|
-| Leadwerks | OpenGL | 1% | 5 |
+| Leadwerks 4 | OpenGL | 1% | 5 |
 | Unity | DX11 | 45% | 62 |
 | Unity | Vulkan | 45% | 64 |
-| Ultra Engine | Vulkan | 96% | 1179 |
+| Leadwerks 5 Beta | Vulkan | 96% | 1179 |
 
 ### Lighting
 
 | Engine | API | GPU Utilization | Framerate |
 |--|--|--|--|
-| Leadwerks | OpenGL | 49% | 704 |
+| Leadwerks 4 | OpenGL | 49% | 704 |
 | Unity | DX11 | 33% | 90 |
 | Unity | Vulkan | 30% | 74 |
-| Ultra Engine  | Vulkan | 96% | 1456 |
+| Leadwerks 5 Beta | Vulkan | 96% | 1456 |
 
 ### Unique Geometry
 
 | Engine | API | GPU Utilization | Framerate |
 |--|--|--|--|
-| Leadwerks | OpenGL | 10% | 49 |
+| Leadwerks 4 | OpenGL | 10% | 49 |
 | Unity | DX11 | 5% | 2 |
 | Unity | Vulkan | 4% | 2 |
-| Ultra Engine | Vulkan | 63% | 6213 |
+| Leadwerks 5 Beta | Vulkan | 63% | 6213 |
