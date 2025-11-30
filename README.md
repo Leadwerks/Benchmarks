@@ -4,7 +4,7 @@ Rendering performance benchmarks comparing Leadwerks 5 Beta, Leadwerks, and Unit
 
 Four tests were created to isolate and measure different aspects of the graphics pipeline in each engine.
 
-The original tests are in the "Ultra Engine" subdirectories. Updated builds are also provided with improved hardware compatibility.
+The original tests are in the "Leadwerks 5" subdirectories. Updated builds are also provided with improved hardware compatibility.
 
 ### Instanced Geometry
 
@@ -47,7 +47,7 @@ Built-in FPS counters are provided. [FRAPS](https://www.fraps.com) can also be u
 
 ## Results
 
-In each test, Ultra Engine outperforms Leadwerks, Unity, or both by a factor greater than 10x. GPU utilization is consistently higher with Ultra Engine. All measurements were recorded using a PC with a quad-core Intel Core i7-7700K CPU @4.20 GHz and an Nvidia GeForce 1080 GTX GPU with driver 471.41 installed, on Windows 10.
+In each test, Leadwerks 5 outperforms Leadwerks 4, Unity, or both by a factor greater than 10x. GPU utilization is consistently higher with Leadwerks 5. All measurements were recorded using a PC with a quad-core Intel Core i7-7700K CPU @4.20 GHz and an Nvidia GeForce 1080 GTX GPU with driver 471.41 installed, on Windows 10.
 
 ### Instanced Geometry
 
