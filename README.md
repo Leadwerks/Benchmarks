@@ -35,7 +35,7 @@ This test is the most representative of an actual game level, with many differen
 - Windows 10 or 11
 - Discrete GPU with support for Vulkan 1.3 (Integrated graphics are not yet supported)
 - [Visual Studio Redistributable](https://aka.ms/vs/17/release/vc_redist.x64.exe) (You probably already have this installed)
-- The Leadwerks builds require [OpenAL](https://openal.org/downloads/) to be installed
+- The Leadwerks 4 builds require [OpenAL](https://openal.org/downloads/) to be installed
 
 Note that AMD cards will display some visual artifacts in the current build.
 
