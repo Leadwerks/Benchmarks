@@ -51,36 +51,36 @@ In each test, Leadwerks 5 outperforms Leadwerks 4, Unity, or both by a factor gr
 
 ### Instanced Geometry
 
-| Engine | API | GPU Utilization | Framerate |
-|--|--|--|--|
-| Leadwerks 4 | OpenGL | 8% | 52 |
-| Unity | DX11 | 4% | 40 |
-| Unity | Vulkan | 4% | 40 |
-| Leadwerks 5 Beta | Vulkan | 95% | 1206 |
+| Engine | GPU Utilization | Framerate |
+|--|--|--|
+| Leadwerks 4 | 8% | 52 |
+| Unity (DX11) | 4% | 40 |
+| Unity (Vulkan) | 4% | 40 |
+| Leadwerks 5 | 95% | 1206 |
 
 ### Animation
 
-| Engine | API | GPU Utilization | Framerate |
-|--|--|--|--|
-| Leadwerks 4 | OpenGL | 1% | 5 |
-| Unity | DX11 | 45% | 62 |
-| Unity | Vulkan | 45% | 64 |
-| Leadwerks 5 Beta | Vulkan | 96% | 1179 |
+| Engine | GPU Utilization | Framerate |
+|--|--|--|
+| Leadwerks 4 | 1% | 5 |
+| Unity (DX11) | 45% | 62 |
+| Unity (Vulkan) | 45% | 64 |
+| Leadwerks 5 | 96% | 1179 |
 
 ### Lighting
 
-| Engine | API | GPU Utilization | Framerate |
-|--|--|--|--|
-| Leadwerks 4 | OpenGL | 49% | 704 |
-| Unity | DX11 | 33% | 90 |
-| Unity | Vulkan | 30% | 74 |
-| Leadwerks 5 Beta | Vulkan | 96% | 1456 |
+| Engine | GPU Utilization | Framerate |
+|--|--|--|
+| Leadwerks 4 | 49% | 704 |
+| Unity (DX11) | 33% | 90 |
+| Unity (Vulkan) | 30% | 74 |
+| Leadwerks 5 | 96% | 1456 |
 
 ### Unique Geometry
 
-| Engine | API | GPU Utilization | Framerate |
-|--|--|--|--|
-| Leadwerks 4 | OpenGL | 10% | 49 |
-| Unity | DX11 | 5% | 2 |
-| Unity | Vulkan | 4% | 2 |
-| Leadwerks 5 Beta | Vulkan | 63% | 6213 |
+| Engine | GPU Utilization | Framerate |
+|--|--|--|
+| Leadwerks 4 | 10% | 49 |
+| Unity (DX11) | 5% | 2 |
+| Unity (Vulkan) | 4% | 2 |
+| Leadwerks 5 | 63% | 6213 |
